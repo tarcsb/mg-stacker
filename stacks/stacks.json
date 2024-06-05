@@ -1,0 +1,63 @@
+{
+    "MERN": {
+        "frontend": "React",
+        "backend": "Node.js",
+        "database": "MongoDB",
+        "libraries": ["Express.js"],
+        "addons": {
+            "observability": ["winston", "morgan"],
+            "traceability": ["jaeger-client", "opentracing"],
+            "system_awareness": ["prom-client"],
+            "cloud_deployment": ["aws-sdk", "azure-sdk"],
+            "docker": true,
+            "jenkins": true,
+            "kubernetes": true
+        }
+    },
+    "MEAN": {
+        "frontend": "Angular",
+        "backend": "Node.js",
+        "database": "MongoDB",
+        "libraries": ["Express.js"],
+        "addons": {
+            "observability": ["winston", "morgan"],
+            "traceability": ["jaeger-client", "opentracing"],
+            "system_awareness": ["prom-client"],
+            "cloud_deployment": ["aws-sdk", "azure-sdk"],
+            "docker": true,
+            "jenkins": true,
+            "kubernetes": true
+        }
+    },
+    "LAMP": {
+        "frontend": "HTML/CSS",
+        "backend": "PHP",
+        "database": "MySQL",
+        "libraries": ["Apache"],
+        "addons": {
+            "observability": ["monolog"],
+            "traceability": ["zipkin"],
+            "system_awareness": ["prometheus"],
+            "cloud_deployment": ["aws-sdk-php", "azure-sdk-php"],
+            "docker": true,
+            "jenkins": true,
+            "kubernetes": true
+        }
+    },
+    "Django": {
+        "frontend": "React/Vue.js",
+        "backend": "Django",
+        "database": "PostgreSQL",
+        "libraries": [],
+        "addons": {
+            "observability": ["django-logging"],
+            "traceability": ["django-opentracing"],
+            "system_awareness": ["prometheus-django"],
+            "cloud_deployment": ["boto3", "azure-sdk"],
+            "docker": true,
+            "jenkins": true,
+            "kubernetes": true
+        }
+    }
+}
+
