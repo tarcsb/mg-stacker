@@ -1,0 +1,57 @@
+
+### `CONTRIBUTING.md`
+
+To complete the setup, you should also have a `CONTRIBUTING.md` file that guides contributors on how to contribute to the project:
+
+```markdown
+# Contributing to Stacker
+
+Thank you for considering contributing to Stacker! We appreciate your support and help in making this project better.
+
+## How to Contribute
+
+### Reporting Bugs
+
+If you encounter any bugs, please create an issue on GitHub with the following details:
+- A clear and descriptive title
+- A detailed description of the issue
+- Steps to reproduce the issue
+- Any relevant screenshots or log files
+
+### Suggesting Enhancements
+
+If you have any suggestions for enhancements, please create an issue on GitHub with the following details:
+- A clear and descriptive title
+- A detailed description of the proposed enhancement
+- Any potential benefits or drawbacks
+
+### Submitting Pull Requests
+
+If you would like to contribute code, please follow these steps:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature-name`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature/your-feature-name`)
+6. Open a pull request
+
+### Code Style
+
+Please ensure your code adheres to the following style guidelines:
+- Python: Follow PEP 8 guidelines
+- JavaScript/TypeScript: Use ESLint for linting
+
+### Testing
+
+Please write tests for any new features or bug fixes and ensure all tests pass before submitting a pull request.
+
+## Contact
+
+For any questions or support, please reach out to us at:
+
+- **Email**: [plewak.jeff@gmail.com](mailto:plewak.jeff@gmail.com)
+- **Twitter**: [@plewak_jeff](https://twitter.com/plewak_jeff)
+- **LinkedIn**: [Jeffrey Plewak](https://linkedin.com/in/jeffreyplewak)
+- **GitHub**: [plewak.jeff](https://github.com/plewak.jeff)
+
+Thank you for contributing!

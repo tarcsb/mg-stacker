@@ -1,0 +1,21 @@
+stacker/
+|-- src/
+|   |-- __init__.py
+|   |-- nlp_parsing.py
+|   |-- tech_stack_matching.py
+|   |-- compatibility_scoring.py
+|   |-- sorting.py
+|-- tests/
+|   |-- __init__.py
+|   |-- test_nlp_parsing.py
+|   |-- test_tech_stack_matching.py
+|   |-- test_sorting.py
+|   |-- test_full_workflow.py
+|-- configs/
+|   |-- logging_config.py
+|-- scripts/
+|   |-- validate_build.py
+|-- README.md
+|-- requirements.txt
+|-- setup.py
+
